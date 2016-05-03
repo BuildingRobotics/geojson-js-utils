@@ -1,0 +1,25 @@
+{
+  "name": "geojson-utils",
+  "description": "GeoJSON Utilities for JavaScript",
+  "main": "geojson-utils.js",
+  "authors": [
+    "Max Ogden"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "geojson",
+    "geocouch"
+  ],
+  "homepage": "https://github.com/BuildingRobotics/geojson-js-utils",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
