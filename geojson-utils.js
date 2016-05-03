@@ -61,6 +61,8 @@
 
     return [ [xAll[0], yAll[0]], [xAll[xAll.length - 1], yAll[yAll.length - 1]] ]
   }
+  // XXX: Grant added this so he didn't have to write this function himself
+  gju.boundingBoxAroundPolyCoords = boundingBoxAroundPolyCoords;
 
   gju.pointInBoundingBox = function (point, bounds) {
     return !(point.coordinates[1] < bounds[0][0] || point.coordinates[1] > bounds[1][0] || point.coordinates[0] < bounds[0][1] || point.coordinates[0] > bounds[1][1]) 
