@@ -6,6 +6,10 @@ objects.
 
 Some algorithms adapted from [bjwbell/canvas-geolib](https://github.com/bjwbell/canvas-geolib)
 
+## Fork note!
+
+Forked from the source to export the BoundingBoxAroundPolyCoords function (a pull request on this has been pending for over a year as of this writing) and make it a Bower package while we're at it.
+
 ## How to use!
 
 Load up in a browser OR `npm install geojson-utils`
